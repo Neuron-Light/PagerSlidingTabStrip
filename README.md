@@ -58,7 +58,9 @@ your brand:
  * `pstsTabBackground` Background drawable of each tab, should be a StateListDrawable
  * `pstsShouldExpand` If set to true, each tab is given the same weight, default false
  * `pstsTextAllCaps` If true, all tab titles will be upper case, default true
-  UPDATE:
+ 
+UPDATE:
+
  * `pstsMarginRightTab, pstsMarginTopTab, pstsMarginBottomTab, pstsMarginLeftTab` margin of each tab
  * `pstsDrawableTab` Background custom drawable of each tab
  * `pstsDividerEnable` true/false
