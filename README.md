@@ -5,7 +5,7 @@ Android Support Library.
 
 Try out the sample application [on the Play Store](https://play.google.com/store/apps/details?id=com.astuetz.viewpager.extensions.sample).
 
-![PagerSlidingTabStrip Sample Screenshot 1](https://lh3.ggpht.com/PXS7EmHhQZdT1Oa379iy91HX3ByWAQnFZAthMAFa_QHAOHNClEaXU5nxDEAj1F2eqbk)![PagerSlidingTabStrip Sample Screenshot 2](https://lh3.ggpht.com/oaksDoUcQlGB4j7VEkBCOjrvSzjtzVHHcKq8pAnGVfm6oxkcJg_w1QS4tyP3fLcqrwcX)
+![PagerSlidingTabStrip Sample Screenshot 1](https://lh3.ggpht.com/PXS7EmHhQZdT1Oa379iy91HX3ByWAQnFZAthMAFa_QHAOHNClEaXU5nxDEAj1F2eqbk)![PagerSlidingTabStrip Sample Screenshot 2](https://lh3.ggpht.com/oaksDoUcQlGB4j7VEkBCOjrvSzjtzVHHcKq8pAnGVfm6oxkcJg_w1QS4tyP3fLcqrwcX)![PagerSlidingTabStrip Sample Screenshot 3](https://lh4.googleusercontent.com/s7j9IV7ws4Pgkh027SVFilAOlzbqyNzXzd640In8L20u28KSs6P_-euriE_wV6-k5ej1ackP6cKiI_w=w1855-h990-rw)
 
 # Usage
 
@@ -58,6 +58,11 @@ your brand:
  * `pstsTabBackground` Background drawable of each tab, should be a StateListDrawable
  * `pstsShouldExpand` If set to true, each tab is given the same weight, default false
  * `pstsTextAllCaps` If true, all tab titles will be upper case, default true
+  UPDATE:
+ * `pstsMarginRightTab, pstsMarginTopTab, pstsMarginBottomTab, pstsMarginLeftTab` margin of each tab
+ * `pstsDrawableTab` Background custom drawable of each tab
+ * `pstsDividerEnable` true/false
+ * `pstsPaddingLeftTabs` Padding container tabs
 
 *All attributes have their respective getters and setters to change them at runtime*
 
