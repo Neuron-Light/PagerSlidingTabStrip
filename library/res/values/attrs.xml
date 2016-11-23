@@ -13,6 +13,16 @@
         <attr name="pstsTabBackground" format="reference" />
         <attr name="pstsShouldExpand" format="boolean" />
         <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsTabSwitch" format="boolean" />
+        <attr name="pstsActivateTextColor" format="color" />
+        <attr name="pstsDeactivateTextColor" format="color" />
+        <attr name="pstsPaddingLeftTabs" format="dimension" />
+        <attr name="pstsMarginLeftTab" format="dimension" />
+        <attr name="pstsMarginRightTab" format="dimension" />
+        <attr name="pstsMarginTopTab" format="dimension" />
+        <attr name="pstsMarginBottomTab" format="dimension" />
+        <attr name="pstsDrawableTab" format="reference" />
+        <attr name="pstsDividerEnable" format="boolean" />
     </declare-styleable>
 
 </resources>
